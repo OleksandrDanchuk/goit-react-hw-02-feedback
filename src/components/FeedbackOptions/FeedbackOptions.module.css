@@ -1,0 +1,14 @@
+.lists {
+  display: flex;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  list-style: none;
+}
+.list:not(:last-child) {
+  margin-right: 25px;
+}
+.btn {
+  font-size: 32px;
+  padding: 15px;
+  border-radius: 5px;
+}
